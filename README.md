@@ -50,7 +50,7 @@
 ### 四、成果展示   
 (1)	用户登录  
 界面展示：  
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p1.png" width="400"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p1.png" width="800"></div> 
 <div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p2.png" width="400"></div> 
 实现细节：  
 ①　输入账号或密码错误，会给予相应的错误提示。  
@@ -58,7 +58,7 @@
 (2)	挂号  
 界面展示：  
 <div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p3.png" width="800"></div> 
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p4.png" width="400"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p4.png" width="800"></div> 
 实现细节：  
 ①　初始化性别，号别，科室，医生信息，显示在下拉列表中。  
 ②　若之前挂过号，输入病历号，显示对应患者的个人基本信息。  
@@ -113,7 +113,7 @@
 (9)	不同身份登录后，根据权限的不同能够使用不同的功能（隐藏无关界面），以下为财务和管理员登录后的不同功能列表：  
 <div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p15.png" width="200"></div> 
 <div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p16.png" width="200"></div> 
-### 五、开发总结   
+### 五、开发总结  
     系统优势：采用Ajax技术实现界面的局部刷新和异步提交，相对于表单全部提交，在极大程度上提升了系统对用户的友好性；在界面的设计上，坚持美观实用的原则，最大化方便用户的使用；采用Jquery框架加快开发速度，使用SSM框架来提高系统的健壮性和兼容性；使用了过滤器完成系统的字符编码和防盗链功能，根据用户权限的不同，相应地隐藏无权限的功能界面，提升系统的安全性能。  
     系统创新：使用zTree树插件来绘制医生看诊界面的患者列表，相比于forEach极大地缩减了代码量，简化了循环输出到界面的过程；在使用Ajax技术实现局部刷新和异步提交的过程中，将JSON数据格式和JO数据格式结合使用，返回数据到JSP界面，这样可以附加数据名称用以标识返回数据，使返回数据更加清晰准确；将window.location.search和正则表达式结合使用，用于获取登录界面的账号名，并显示在功能界面的右上角。  
 
