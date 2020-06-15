@@ -120,7 +120,7 @@
         
 (9)	不同身份登录后，根据权限的不同能够使用不同的功能（隐藏无关界面），以下为财务和管理员登录后的不同功能列表：  
 <div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p15.png" width="200"></div>   
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p16.png" width="200"></div>   
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p16.jpg" width="200"></div>   
 
 ### 五、开发总结  
     系统优势：采用Ajax技术实现界面的局部刷新和异步提交，相对于表单全部提交，在极大程度上提升了系统对用户的友好性；在界面的设计上，坚持美观实用的原则，最大化方便用户的使用；采用Jquery框架加快开发速度，使用SSM框架来提高系统的健壮性和兼容性；使用了过滤器完成系统的字符编码和防盗链功能，根据用户权限的不同，相应地隐藏无权限的功能界面，提升系统的安全性能。  
