@@ -53,8 +53,8 @@
 <div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p1.png" width="800"></div> 
 <div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p2.png" width="400"></div> 
 实现细节：  
-①　输入账号或密码错误，会给予相应的错误提示。  
-②　输入正确的账号和密码，成功登录系统首页。  
+①输入账号或密码错误，会给予相应的错误提示。  
+②输入正确的账号和密码，成功登录系统首页。   
 (2)	挂号   
 界面展示：  
 <div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p3.png" width="800"></div> 
