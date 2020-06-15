@@ -57,7 +57,7 @@
 ②　输入正确的账号和密码，成功登录系统首页。  
 (2)	挂号  
 界面展示：  
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p3.png" width="400"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p3.png" width="800"></div> 
 <div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p4.png" width="400"></div> 
 实现细节：  
 ①　初始化性别，号别，科室，医生信息，显示在下拉列表中。  
@@ -68,24 +68,24 @@
 ⑥　挂号时需填写界面下半部分信息，挂号成功后系统将输出界面上半部分信息。  
 (3)	医生看诊  
 界面展示：  
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p5.png" width="400"></div> 
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p6.png" width="400"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p5.png" width="800"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p6.png" width="800"></div> 
 实现细节： 
 ①　系统自动查找该医生当日的待诊患者和已诊患者，并以列表形式展现在左侧。  
 ②　在待诊患者列表中选择一位患者，点击“门诊病历”，填写该患者的病历信息。  
 ③　点击“保存”完成医生看诊，将数据保存到数据库，弹出成功/失败消息提示。  
 (4)	医生开药
 界面展示：
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/tree/master/READMEPhoto/p7.png" width="400"></div> 
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/tree/master/READMEPhoto/p8.png" width="400"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/tree/master/READMEPhoto/p7.png" width="800"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/tree/master/READMEPhoto/p8.png" width="800"></div> 
 实现细节：
 ①　开药界面的诊断结果将自动读取看诊病例的诊断结果，以给医生做开药参考。
 ②　填写药品信息，点击“增方”，完整的药品信息从数据库读取，用表格展示。
 ③　勾选表格中的处方明细，点击“提交”完成开药，弹出成功/失败消息提示。
 (5)	收费  
 界面展示：  
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p9.png" width="400"></div> 
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p10.png" width="400"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p9.png" width="800"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p10.png" width="800"></div> 
 实现细节：  
 ①　输入病历号，列出该患者的个人信息，列出费用信息的列表。  
 ②　选择某些行，点击“收费结算”，弹出“发票信息（交费）”遮罩弹窗。  
@@ -93,26 +93,26 @@
 ④　点击“收费”，保存收费信息到数据库，回显发票号。  
 (6)	药房发药  
 界面展示：  
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p11.png" width="400"></div>  
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p11.png" width="800"></div>  
 实现细节：  
 ①　输入病历号和开立时间，点击“搜索”，表格中列出符合条件的所有处方明细。  
 ②　勾选对应的药品明细信息，点击“发药”，操作的结果将弹出提示框给予提示。  
 (7)	退号  
 界面展示：  
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p12.png" width="400"></div> 
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p13.png" width="400"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p12.png" width="800"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p13.png" width="800"></div> 
 实现细节：  
 ③　输入病历号，点击“搜索”，表格中列出当日当前病历号下的所有挂号信息。   
 ④　选择某一行的挂号信息，点击退号，对退号操作进行校验，已经看诊的或已经退号的，弹出不允许退号提示框；退号成功，弹出提示框。  
 (8)	费用查询  
 界面展示：  
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p14.png" width="400"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p14.png" width="800"></div> 
 实现细节：  
 ①　点击左侧患者列表的某一位患者，再点击“费用查询”，自动显示出该患者当日的费用明细，且有“未缴费”和“已缴费”的标识。  
 ②　系统自动计算出该患者列表费用的“已支付费用总额”和“待支付费用总额”。  
 (9)	不同身份登录后，根据权限的不同能够使用不同的功能（隐藏无关界面），以下为财务和管理员登录后的不同功能列表：  
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p15.png" width="400"></div> 
-<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p16.png" width="400"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p15.png" width="200"></div> 
+<div align=center><img src="https://github.com/Geogy-fjq/HospitalTreatmentSystem/blob/master/READMEPhoto/p16.png" width="200"></div> 
 ### 五、开发总结   
     系统优势：采用Ajax技术实现界面的局部刷新和异步提交，相对于表单全部提交，在极大程度上提升了系统对用户的友好性；在界面的设计上，坚持美观实用的原则，最大化方便用户的使用；采用Jquery框架加快开发速度，使用SSM框架来提高系统的健壮性和兼容性；使用了过滤器完成系统的字符编码和防盗链功能，根据用户权限的不同，相应地隐藏无权限的功能界面，提升系统的安全性能。  
     系统创新：使用zTree树插件来绘制医生看诊界面的患者列表，相比于forEach极大地缩减了代码量，简化了循环输出到界面的过程；在使用Ajax技术实现局部刷新和异步提交的过程中，将JSON数据格式和JO数据格式结合使用，返回数据到JSP界面，这样可以附加数据名称用以标识返回数据，使返回数据更加清晰准确；将window.location.search和正则表达式结合使用，用于获取登录界面的账号名，并显示在功能界面的右上角。  
